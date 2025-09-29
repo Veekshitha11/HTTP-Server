@@ -1,0 +1,3 @@
+This is the first sample text file.
+Its purpose is to test the application/octet-stream download functionality for .txt files.
+The server should read this in binary and send it to the client with headers that trigger a download prompt in the browser.
