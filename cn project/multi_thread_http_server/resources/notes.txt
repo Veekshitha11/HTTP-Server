@@ -1,0 +1,38 @@
+Multi-threaded HTTP Server Notes
+===============================
+
+1. Server Overview:
+   - Handles multiple clients using a thread pool.
+   - Supports GET and POST requests.
+   - Serves HTML, text, and binary files.
+
+2. Supported File Types:
+   - HTML (.html)
+   - PNG (.png)
+   - JPEG (.jpg/.jpeg)
+   - Text (.txt)
+
+3. POST Requests:
+   - Accepts JSON only.
+   - Saves uploaded files in resources/uploads/.
+   - Returns 201 Created on success.
+
+4. Security Measures:
+   - Path traversal protection
+   - Host header validation
+   - Method restrictions (GET/POST)
+   - Content-Type validation
+
+5. Connection Management:
+   - Keep-alive supported.
+   - Timeout: 30 seconds for idle connections.
+   - Max 100 requests per persistent connection.
+
+6. Logging:
+   - Logs requests, responses, thread activity, and security violations.
+   - Stored in logs/ directory.
+
+7. Limitations:
+   - Only GET and POST supported.
+   - Limited file types for serving.
+   - No SSL/TLS or authentication.

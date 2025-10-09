@@ -1,0 +1,37 @@
+[2025-10-10 00:17:03] HTTP Server started on http://127.0.0.1:8080
+[2025-10-10 00:17:03] Thread pool size: 10
+[2025-10-10 00:17:03] Serving files from 'C:\CN end term project\multi_thread_http_server\resources'
+[2025-10-10 00:17:03] Press Ctrl+C to stop the server
+[2025-10-10 01:09:00] HTTP Server started on http://127.0.0.1:8080
+[2025-10-10 01:09:00] Thread pool size: 10
+[2025-10-10 01:09:00] Serving files from 'C:\CN end term project\multi_thread_http_server\resources'
+[2025-10-10 01:09:00] Press Ctrl+C to stop the server
+[2025-10-10 01:11:09] HTTP Server started on http://127.0.0.1:8080
+[2025-10-10 01:11:09] Thread pool size: 10
+[2025-10-10 01:11:09] Serving files from 'C:\CN end term project\multi_thread_http_server\resources'
+[2025-10-10 01:11:09] Press Ctrl+C to stop the server
+[2025-10-10 01:38:06] HTTP Server started on http://127.0.0.1:8080
+[2025-10-10 01:38:06] Thread pool size: 10
+[2025-10-10 01:38:06] Serving files from 'C:\CN end term project\multi_thread_http_server\resources'
+[2025-10-10 01:41:32] [Thread-1] Connection from 127.0.0.1:57529
+[2025-10-10 01:41:33] [Thread-1] Request: GET / HTTP/1.1
+[2025-10-10 01:41:33] [Thread-2] Connection from 127.0.0.1:54411
+[2025-10-10 01:41:35] [Thread-1] Request: GET /about.html HTTP/1.1
+[2025-10-10 01:41:36] [Thread-1] Request: GET /contact.html HTTP/1.1
+[2025-10-10 01:41:45] [Thread-1] Request: GET /sample.txt HTTP/1.1
+[2025-10-10 01:41:56] [Thread-1] Request: GET /notes.txt HTTP/1.1
+[2025-10-10 01:42:03] [Thread-2] Connection closed for 127.0.0.1:54411
+[2025-10-10 01:42:14] [Thread-1] Request: GET /friend.png HTTP/1.1
+[2025-10-10 01:42:14] [Thread-3] Connection from 127.0.0.1:55168
+[2025-10-10 01:42:19] [Thread-1] Request: GET /friend.jpg HTTP/1.1
+[2025-10-10 01:42:44] [Thread-3] Connection closed for 127.0.0.1:55168
+[2025-10-10 01:42:49] [Thread-1] Connection closed for 127.0.0.1:57529
+[2025-10-10 01:43:10] [Thread-4] Connection from 127.0.0.1:49943
+[2025-10-10 01:43:10] [Thread-4] Request: GET /friend.png HTTP/1.1
+[2025-10-10 01:43:10] [Thread-5] Connection from 127.0.0.1:63260
+[2025-10-10 01:43:10] [Thread-6] Connection from 127.0.0.1:53657
+[2025-10-10 01:43:23] [Thread-4] Request: GET /friend.jpg HTTP/1.1
+[2025-10-10 01:43:31] [Thread-4] Request: GET /family.jpg HTTP/1.1
+[2025-10-10 01:43:40] [Thread-5] Connection closed for 127.0.0.1:63260
+[2025-10-10 01:43:40] [Thread-6] Connection closed for 127.0.0.1:53657
+[2025-10-10 01:43:47] [Thread-4] Connection closed for 127.0.0.1:49943
